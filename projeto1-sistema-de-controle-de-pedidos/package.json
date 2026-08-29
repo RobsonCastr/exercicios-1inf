@@ -1,0 +1,16 @@
+{
+  "name": "projeto1-sistema-de-controle-de-pedidos",
+  "version": "1.0.0",
+  "description": "Você acaba de entrar como **estagiário** em uma empresa de tecnologia chamada **TechStore Sistemas**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.5.0"
+  }
+}
