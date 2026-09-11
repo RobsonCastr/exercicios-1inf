@@ -76,6 +76,7 @@ Troco: R$ ${troco}
 Situação do Pedido: ${statusPedido}
 ========================================
 `;
+console.log(resumo)
 
 module.exports = {
     cliente,
