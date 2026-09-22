@@ -11,8 +11,9 @@ const subtotal = preco * quantidade
 const valorDesconto = (subtotal * descontoPercentual) / 100
 const valorFinal = subtotal - valorDesconto
 const troco = valorPago - valorFinal
-const resumo = `
-==================================================
+const statusPedido = valorPago >= valorFinal ? "Pedido aprovado" : "Pagamento insuficiente"
+
+const resumo = `==================================================
 TECHSTORE SISTEMAS
 RESUMO DO PEDIDO
 ==================================================
@@ -33,15 +34,11 @@ Valor final: R$ ${valorFinal}
 Valor pago: R$ ${valorPago}
 Troco: R$ ${troco}
 
-Obrigado pela compra
-`
+Obrigado pela compra`
+
 console.log(resumo)
 
 
-
-
-
-// === FIM DO CÓDIGO =======================
 // === NÃO FAZER NADA ABAIXO DESSA LINHA ===
 module.exports = {
   cliente,
@@ -56,5 +53,7 @@ module.exports = {
   valorDesconto,
   valorFinal,
   troco,
+  statusPedido,
   resumo
+}
 }
