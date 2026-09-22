@@ -73,7 +73,7 @@ Valor Pago: R$ ${valorPago}
 Status do Pagamento: ${pagamentoStatus}
 Troco: R$ ${troco}
 Situação Final: ${statusMatricula}
-`.trim()
+`console.log(resumo)
 
 
 module.exports = {
