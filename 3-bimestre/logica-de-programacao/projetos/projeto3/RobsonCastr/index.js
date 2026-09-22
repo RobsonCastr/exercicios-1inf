@@ -70,7 +70,7 @@ Situação do Pagamento: ${pagamentoStatus}
 ----------------------------------------
 SITUAÇÃO FINAL: ${statusPartida}
 ========================================
-`.trim()
+`console.log(resumo)
 
 module.exports = {
     nome,
