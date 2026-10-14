@@ -246,7 +246,8 @@ Opção: 7 | Quantidade: 1 | Forma de pagamento: cheque | Status: perdido
 ```
 Opção inválida, preço 0, subtotal 0
 Frete pago (R$ 10)
-Forma de pagamento inválida, desconto R$ 0
+Forma de p
+        pagamento inválida, desconto R$ 0
 Total: R$ 10 → Status desconhecido
 ```
 
